@@ -4,9 +4,9 @@ package com.coolweather.android.db;
  * Created by HP on 2020/8/9.
  */
 
-import org.litepal.crud.LitePalSupport;
+import org.litepal.crud.DataSupport;
 
-public class County extends LitePalSupport {
+public class County extends DataSupport {
     private int id;     //id是每个实体都应该有的字段
     private String countyName;  //县的名字
     private String weatherId;  //天气id
